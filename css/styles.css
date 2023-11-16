@@ -1,8 +1,29 @@
 .list {
     list-style-type: none;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
 .link {
     text-decoration: none;}
+
+        ul,
+        ol {
+            margin-top: 0;
+            margin-bottom: 0;
+            padding-left: 0;
+        }
+    
+        img {
+            display: block;
+        }
 button {
     cursor: pointer;
 }
@@ -65,6 +86,13 @@ body {
    .mail-link:focus {
     color: #404bbf;
    }
+   .container {
+       width: 1440px;
+       margin-left: auto;
+       margin-right: auto;
+       padding-left: 156px;
+       padding-right: 156px;
+   }
    .title-section-one {
 text-align: center;
     font-size: 56px;
@@ -73,6 +101,19 @@ text-align: center;
     line-height: 1.07;
     /* 107.143% */
     letter-spacing: 0.02em;
+   }
+   .visually-hidden {
+       position: absolute;
+       width: 1px;
+       height: 1px;
+       margin: -1px;
+       border: 0;
+       padding: 0;
+
+       white-space: nowrap;
+       clip-path: inset(100%);
+       clip: rect(0 0 0 0);
+       overflow: hidden;
    }
    
    .section-hero {
@@ -103,9 +144,7 @@ text-align: center;
    .title-section-one {
     color: white;
    }
-   .section-mein {
-    background-color: #F4F4FD;
-   }
+  
    .title-too {
     color: #2e2f42;
         font-size: 20px;
@@ -136,7 +175,7 @@ text-align: center;
 
 .list-section-three {
     color: #2E2F42;
-    background-color: #FFFFFF;
+    background-color: #F4F4FD;
         text-align: center;
         /* Header 2 */
         font-size: 36px;
