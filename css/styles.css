@@ -272,7 +272,8 @@ width: calc((100% - 72px) / 4);
         /* 111.111% */
         letter-spacing: 0.02em;
         text-transform: capitalize;
-        width: 264px;     
+        width: 264px;
+        width: calc((100%-72px)/4);     
         
 }
 .title-three-name {
