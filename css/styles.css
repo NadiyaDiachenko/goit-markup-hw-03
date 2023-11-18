@@ -98,10 +98,22 @@ body {
        padding-left: 15px;
        padding-right: 15px;
    }
+          /*=====/CONTAINER=====*/
+
+   /*======HEADER STYLES====*/
+   .page-navigation {
+display: flex;
+   }
+   .menu {
+    display: flex;
+   }
+   .list {
+    display: flex;
+   }
    .page-header-container {
     display: flex;
    }
-   /*=====CONTAINER=====*/
+
    
    .title-section-one {
 text-align: center;
