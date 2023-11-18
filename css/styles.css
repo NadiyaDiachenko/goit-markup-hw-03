@@ -96,7 +96,7 @@ body {
    }
    /*=====CONTAINER=====*/
    .container {
-       width: 1128px;
+       width: 1158px;
     padding: 0 15px;
         margin: 0 auto;
 
@@ -111,13 +111,14 @@ body {
    .page-navigation {
 display: flex;
 align-items: center;
+
    }
    .logo {
     margin-right: 76px;
    }
    .menu {
     display: flex;
-    column-gap: 40px;
+    gap: 40px;
     padding-top: 24px;
         padding-bottom: 24px;
    }
