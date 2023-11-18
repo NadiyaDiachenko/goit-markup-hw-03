@@ -327,6 +327,7 @@ width: calc((100% - 72px) / 4);
    .pichers-under {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
+    border-top: none;
    }
    .mini-title-four {
     color: #2E2F42;
