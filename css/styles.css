@@ -225,7 +225,6 @@ text-align: center;
     display: flex;
     flex-wrap: nowrap;
     gap: 24px;
-        width: calc((100% - 72px) / 4);
    }
    .paragraph {
         font-size: 16px;
@@ -234,6 +233,7 @@ text-align: center;
         /* 150% */
         letter-spacing: 0.02em;
         padding-bottom: 120px;
+        width: calc((100% - 72px) / 4);
    }
    .title-section-three {
     color:#2E2F42;
