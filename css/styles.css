@@ -137,6 +137,7 @@ align-items: center;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    max-width: 496px;
    }
 /*======sections styles====*/
    .title-section-one {
