@@ -321,6 +321,12 @@ width: calc((100% - 72px) / 4);
         margin-bottom: 72px;
         padding-top: 120px;
    }
+   .portfolio {
+    row-gap: 48px;
+   }
+   .pichers-under {
+    padding: 32px 16px;
+   }
    .mini-title-four {
     color: #2E2F42;
         /* Header 3 */
