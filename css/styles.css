@@ -1,6 +1,8 @@
+/*=======COMMON STYLES====*/
 .list {
     list-style-type: none;
 }
+
 h1,
 h2,
 h3,
@@ -27,6 +29,8 @@ p {
 button {
     cursor: pointer;
 }
+/*=======COMMON STYLES====*/
+
 body {
     font-family: 'Roboto', sans-serif;
     color: #434455;
@@ -86,13 +90,19 @@ body {
    .mail-link:focus {
     color: #404bbf;
    }
+   /*=====CONTAINER=====*/
    .container {
-       width: 1440px;
+       width: 1128px;
        margin-left: auto;
        margin-right: auto;
-       padding-left: 156px;
-       padding-right: 156px;
+       padding-left: 15px;
+       padding-right: 15px;
    }
+   .page-header-container {
+    display: flex;
+   }
+   /*=====CONTAINER=====*/
+   
    .title-section-one {
 text-align: center;
     font-size: 56px;
