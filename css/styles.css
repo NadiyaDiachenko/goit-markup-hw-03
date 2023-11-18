@@ -29,6 +29,10 @@ p {
 button {
     cursor: pointer;
 }
+.paddinf-for-section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
 /*=======COMMON STYLES====*/
 
 body {
@@ -93,28 +97,40 @@ body {
    /*=====CONTAINER=====*/
    .container {
        width: 1128px;
-       margin-left: auto;
-       margin-right: auto;
-       padding-left: 15px;
-       padding-right: 15px;
+    padding: 0 15px;
+        margin: 0 auto;
+
    }
           /*=====/CONTAINER=====*/
 
    /*======HEADER STYLES====*/
-   .page-navigation {
+
+      .page-navigation {
 display: flex;
+align-items: center;
+   }
+   .logo {
+    margin-right: 76px;
    }
    .menu {
     display: flex;
+    column-gap: 40px;
+    padding-top: 24px;
+        padding-bottom: 24px;
    }
-   .list {
+   
+   .mail {
     display: flex;
+    column-gap: 40px;
+    padding-top: 24px;
+        padding-bottom: 24px;
    }
    .page-header-container {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
    }
-
-   
+/*======sections styles====*/
    .title-section-one {
 text-align: center;
     font-size: 56px;
@@ -123,6 +139,12 @@ text-align: center;
     line-height: 1.07;
     /* 107.143% */
     letter-spacing: 0.02em;
+    color: white;
+        width: 496px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 24px;
+
    }
    .visually-hidden {
        position: absolute;
@@ -141,10 +163,11 @@ text-align: center;
    .section-hero {
     color: white;
     background:  #2E2F42;
-    
+    padding-top: 188px;
+    padding-bottom: 292px;
    }
    .button-order {
-    color: rgb(255, 255, 255);
+    color: white;
     background-color: #4d5ae5;
         font-size: 16px;
         font-style: normal;
@@ -152,6 +175,12 @@ text-align: center;
         line-height: 1.5;
         /* 150% */
         letter-spacing: 0.04em;
+        
+        margin-left: auto;
+            margin-right: auto;
+            margin-top: 24px;
+          
+            display: block;        
         
    }
    .button-order:hover {
@@ -163,17 +192,21 @@ text-align: center;
     color: white;
         background-color: #404BBF;
    }
-   .title-section-one {
-    color: white;
-   }
   
-   .title-too {
+   .title-too-h {
+    display: flex;
     color: #2e2f42;
         font-size: 20px;
         font-weight: 500;
         line-height: 1.2;
         /* 120% */
         letter-spacing: 0.02em;
+        padding-top: 120px;
+            column-gap: 24px;
+   }
+   .advantages {
+    display: flex;
+    flex-wrap: nowrap;
    }
    .paragraph {
         font-size: 16px;
@@ -181,6 +214,7 @@ text-align: center;
         line-height: 1.5;
         /* 150% */
         letter-spacing: 0.02em;
+        padding-bottom: 120px;
    }
    .title-section-three {
     color:#2E2F42;
@@ -193,6 +227,15 @@ text-align: center;
         /* 111.111% */
         letter-spacing: 0.02em;
         text-transform: capitalize;
+        background-color: teal;
+        padding-top: 120px;
+        margin-bottom: 72px;
+           }
+   .team {
+    display: flex;
+    column-gap: 24px;
+
+    
    }
 
 .list-section-three {
@@ -206,6 +249,8 @@ text-align: center;
         /* 111.111% */
         letter-spacing: 0.02em;
         text-transform: capitalize;
+        width: 264px;     
+        
 }
 .title-three-name {
     color: #2E2F42;
@@ -228,6 +273,7 @@ text-align: center;
         /* 150% */
         letter-spacing: 0.02em;
    }
+   
    .title-four {
     color:#2E2F42;
         text-align: center;
@@ -238,7 +284,10 @@ text-align: center;
         line-height: 1.1;
         /* 111.111% */
         letter-spacing: 0.02em;
-        text-transform: capitalize;
+        text-transform: capitalize;      
+        background-color: tomato;
+        margin-bottom: 72px;
+        padding-top: 120px;
    }
    .mini-title-four {
     color: #2E2F42;
@@ -260,6 +309,9 @@ color: #434455;
     /* 150% */
     letter-spacing: 0.02em;
    }
+
+   /*======/sections styles====*/
+
    .footer-background {
     color: white;
     background-color: #2E2F42;
