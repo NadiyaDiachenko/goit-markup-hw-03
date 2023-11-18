@@ -118,11 +118,13 @@ align-items: center;
    }
    .menu {
     display: flex;
+    
+   }
+   .menu-link {
     gap: 40px;
-    padding-top: 24px;
+        padding-top: 24px;
         padding-bottom: 24px;
    }
-   
    .mail {
     display: flex;
     column-gap: 40px;
