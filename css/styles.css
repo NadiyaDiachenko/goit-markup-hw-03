@@ -131,6 +131,7 @@ align-items: center;
     column-gap: 40px;
     padding-top: 24px;
         padding-bottom: 24px;
+        gap: 40px;
    }
    .page-header-container {
     display: flex;
