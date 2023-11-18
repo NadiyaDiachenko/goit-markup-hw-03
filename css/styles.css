@@ -233,10 +233,11 @@ text-align: center;
            }
    .team {
     display: flex;
-    column-gap: 24px;
-
-    
+    flex-wrap: wrap;
+        width: calc((100%-48)*3);
+        
    }
+ 
 
 .list-section-three {
     color: #2E2F42;
