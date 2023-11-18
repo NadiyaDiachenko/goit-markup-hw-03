@@ -209,6 +209,7 @@ text-align: center;
   
    .section-mein {
     padding: 120px 0;
+    border: 1px solid #e7e9fc;
    }
    .title-too-h {
     display: flex;
