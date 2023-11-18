@@ -367,6 +367,7 @@ color: #434455;
         line-height: 1.5;
         /* 150% */
         letter-spacing: 0.02em;
+        max-width: 264px;
    }
    .link-footerlink {
     color: #4D5AE5;
@@ -378,6 +379,7 @@ color: #434455;
         /* 116.667% */
         letter-spacing: 0.03em;
         text-transform: uppercase;
+        display: inline-block;
    }
 .span-footer {
    color: #F4F4FD;
