@@ -256,6 +256,7 @@ width: calc((100% - 72px) / 4);
    .team {
     display: flex;
     flex-wrap: wrap;
+    gap: 24px;
         
         
    }
