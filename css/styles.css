@@ -207,6 +207,9 @@ text-align: center;
         background-color: #404BBF;
    }
   
+   .section-mein {
+    padding: 120px 0;
+   }
    .title-too-h {
     display: flex;
     color: #2e2f42;
