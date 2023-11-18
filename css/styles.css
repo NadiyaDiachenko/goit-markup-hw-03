@@ -219,7 +219,8 @@ text-align: center;
         /* 120% */
         letter-spacing: 0.02em;
         padding-top: 120px;
-            column-gap: 24px;
+            gap: 24px;
+            width: calc((100% - 72px) / 4);
    }
    .advantages {
     display: flex;
