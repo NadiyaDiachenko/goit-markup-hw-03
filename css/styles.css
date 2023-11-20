@@ -123,6 +123,7 @@ align-items: center;
     
    }
    .menu-link {
+    display: block;
     gap: 40px;
         padding-top: 24px;
         padding-bottom: 24px;
@@ -130,8 +131,6 @@ align-items: center;
    .mail {
     display: flex;
     column-gap: 40px;
-    padding-top: 24px;
-        padding-bottom: 24px;
         gap: 40px;
    }
    .page-header-container {
@@ -219,7 +218,6 @@ text-align: center;
         line-height: 1.2;
         /* 120% */
         letter-spacing: 0.02em;
-        padding-top: 120px;
         margin-bottom: 8px;
         
             
@@ -238,7 +236,9 @@ width: calc((100% - 72px) / 4);
         line-height: 1.5;
         /* 150% */
         letter-spacing: 0.02em;
-        padding-bottom: 120px;
+   }
+   .team-section {
+    background-color: #F4F4FD;
    }
    .title-section-three {
     color:#2E2F42;
@@ -251,7 +251,6 @@ width: calc((100% - 72px) / 4);
         /* 111.111% */
         letter-spacing: 0.02em;
         text-transform: capitalize;
-        padding-top: 120px;
         margin-bottom: 72px;
            }
    .team {
@@ -316,9 +315,7 @@ width: calc((100% - 72px) / 4);
         /* 111.111% */
         letter-spacing: 0.02em;
         text-transform: capitalize;      
-        background-color: tomato;
         margin-bottom: 72px;
-        padding-top: 120px;
    }
    .list-section-four {
     width: calc((100% - 48px) / 3);
